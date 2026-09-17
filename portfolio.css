@@ -23,18 +23,18 @@ a:hover{
 }
 
 h1.header{
-    color: #e91e63;
+    font-family: 'Monoton', cursive;
+    color: #fff;
     font-size: 2.5rem;
-    font-weight: bold;
     margin-top: 0px;
     margin-bottom: 0px;
 }
 
 h2{
-    color: #616161;
+    color: #e91e63;
     font-size: 2.5rem;
     font-weight: bold;
-    margin-top: 0px;
+    margin-top: 15px;
 }
 
 canvas{
@@ -48,12 +48,11 @@ canvas{
     margin-bottom: 3rem;
 }
 
-.logo{
+/* .logo{
     font-family: 'Monoton', cursive;
     color: #fff;
     font-size: 6.5rem;
-
-}
+}*/
 
 .links-list ul li{
     list-style: none;
@@ -88,7 +87,7 @@ canvas{
 
     .wrapper {
         max-width: 800px;
-        margin: 0 auto;
+        margin-left:0px;
         display: flex;
         gap: 30px;
         align-items: flex-start;
@@ -100,7 +99,7 @@ canvas{
         width: 160px;
         height: 200px;
         object-fit: cover;
-        border: 1px solid #ccc;
+        border: 5px solid #ccc;
         display: block;
     }
     .info {
@@ -109,13 +108,13 @@ canvas{
     table {
         border-collapse: collapse;
         width: 100%;
+        margin-left:-37px;
     }
 
     table td {
-        padding: 8px 10px;
-        border-bottom: 1px solid #444;
+        border-bottom: 2.4px solid #444;
         vertical-align: top;
-        font-size: 0.95rem;
+        font-size: 1.5rem;
         color: #fff;
     }
 
